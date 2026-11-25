@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0B192C">
+  <title>GoAvanza | Sistemas POS Económicos para Pequeños Negocios</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230B192C'/%3E%3Crect x='14' y='36' width='8' height='14' rx='3' fill='%23ffffff'/%3E%3Crect x='28' y='28' width='8' height='22' rx='3' fill='%23ffffff'/%3E%3Crect x='42' y='18' width='8' height='32' rx='3' fill='%2314B87A'/%3E%3Cpath d='M16 25l10-9 6 5 11-10' fill='none' stroke='%2314B87A' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navegación -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="index.html" class="logo" aria-label="GoAvanza Inicio">
+        <span class="logo-go">Go</span><span class="logo-avanza">Avanza</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#beneficios">Beneficios</a>
+        <a href="#catalogo">Sistemas</a>
+        <a href="#recomendador">Asesor Rápido</a>
+        <a href="#tecnologia">Tecnología</a>
+        <a href="#faq">Dudas</a>
+      </nav>
+      <a href="#" id="nav-whatsapp" target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+        <svg class="wa-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+          <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 1.856.001 3.598.723 4.907 2.034 1.31 1.311 2.031 3.054 2.03 4.908-.001 3.825-3.113 6.938-6.937 6.938z"/>
+        </svg>
+        WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <!-- Portada (Hero Moderno) -->
+  <section class="hero">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="container hero-grid">
+      <div class="hero-text reveal">
+        <span class="badge badge-icon">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3l1.9 5.8a2 2 0 0 0 1.3 1.3L21 12l-5.8 1.9a2 2 0 0 0-1.3 1.3L12 21l-1.9-5.8a2 2 0 0 0-1.3-1.3L3 12l5.8-1.9a2 2 0 0 0 1.3-1.3L12 3z"/>
+          </svg>
+          Ideal para tu primer sistema de ventas
+        </span>
+        <h1>Controla tu negocio <span class="text-gradient">sin pagar mensualidades</span> costosas</h1>
+        <p>Sistemas de punto de venta rápidos, fáciles de aprender y diseñados a medida para bodegas, pollerías, restaurantes y barberías.</p>
+        <div class="hero-actions">
+          <a href="#catalogo" class="btn btn-primary">Explorar Sistemas POS</a>
+          <a href="#" id="hero-whatsapp" target="_blank" rel="noopener" class="btn btn-outline">
+            <svg class="wa-icon wa-green" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+              <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 1.856.001 3.598.723 4.907 2.034 1.31 1.311 2.031 3.054 2.03 4.908-.001 3.825-3.113 6.938-6.937 6.938z"/>
+            </svg>
+            Consultar por WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="browser-mockup" id="hero-carousel">
+          <div class="browser-header">
+            <div class="browser-dots">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="browser-url" id="hero-browser-url">goavanza.pe/sistema-pos</div>
+          </div>
+          <div class="browser-body img-skeleton" id="hero-slider-stage">
+            <img id="hero-img-current"
+                 src="img/portada-pos.png"
+                 alt="Vista previa del sistema POS GoAvanza"
+                 fetchpriority="high"
+                 decoding="async"
+                 onload="this.parentElement.classList.add('loaded')"
+                 onerror="this.src='https://placehold.co/650x420/0B192C/ffffff?text=Vista+Previa+GoAvanza+POS'; this.parentElement.classList.add('loaded');">
+            <img id="hero-img-next"
+                 src=""
+                 alt=""
+                 class="hero-slide-layer"
+                 aria-hidden="true">
+            <div class="hero-slider-caption">
+              <span id="hero-slide-label">Vista General POS</span>
+              <div class="hero-slider-dots" id="hero-slider-dots" role="tablist" aria-label="Vistas del sistema"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Barra Horizontal de Garantías (Trust Bar) -->
+  <section class="trust-bar" aria-label="Ventajas principales">
+    <div class="container">
+      <div class="trust-bar-grid reveal">
+        <div class="trust-bar-item">
+          <div class="trust-bar-icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="3" width="20" height="14" rx="2"/>
+              <line x1="8" y1="21" x2="16" y2="21"/>
+              <line x1="12" y1="17" x2="12" y2="21"/>
+            </svg>
+          </div>
+          <div class="trust-bar-content">
+            <strong>Funciona en cualquier PC</strong>
+            <span>Compatible con equipos básicos o antiguos</span>
+          </div>
+        </div>
+
+        <div class="trust-bar-divider" aria-hidden="true"></div>
+
+        <div class="trust-bar-item">
+          <div class="trust-bar-icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+            </svg>
+          </div>
+          <div class="trust-bar-content">
+            <strong>Sin servidores caros</strong>
+            <span>Ahorra hasta 70% frente a sistemas pesados</span>
+          </div>
+        </div>
+
+        <div class="trust-bar-divider" aria-hidden="true"></div>
+
+        <div class="trust-bar-item">
+          <div class="trust-bar-icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+            </svg>
+          </div>
+          <div class="trust-bar-content">
+            <strong>Soporte y capacitación directa</strong>
+            <span>Te enseño a usarlo paso a paso en 15 min</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 Pilares de Valor -->
+  <section id="beneficios" class="section bg-light">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">¿Por qué empezar con nuestros sistemas?</h2>
+        <p class="section-subtitle">Pensados para dueños de negocio que buscan orden sin complicaciones técnicas.</p>
+      </div>
+      
+      <div class="pillars-grid">
+        <div class="pillar-card reveal">
+          <div class="pillar-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+            </svg>
+          </div>
+          <h3>Ultra ligero y veloz</h3>
+          <p>Desarrollados con tecnología optimizada para funcionar fluido incluso en computadoras básicas o antiguas que ya tengas en tu local.</p>
+        </div>
+        <div class="pillar-card reveal">
+          <div class="pillar-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="12" y1="1" x2="12" y2="23"/>
+              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+            </svg>
+          </div>
+          <h3>Precios realmente bajos</h3>
+          <p>Al no requerir infraestructura pesada en la nube, ahorras hasta un 70% frente a los sistemas comerciales tradicionales.</p>
+        </div>
+        <div class="pillar-card reveal">
+          <div class="pillar-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3>Trato directo y capacitación</h3>
+          <p>Te entrego el sistema configurado con tus productos y te enseño a usarlo en 15 minutos. Sin robots ni tickets de soporte eternos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Catálogo Filtrable -->
+  <section id="catalogo" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Elige el sistema diseñado para tu rubro</h2>
+        <p class="section-subtitle">Haz clic en <strong>"Ver cómo funciona"</strong> para explorar las pantallas de cada módulo.</p>
+      </div>
+
+      <!-- Botones de Filtro -->
+      <div class="filter-bar reveal" id="filtros-categoria">
+        <button class="filter-btn active" data-categoria="todos">Todos los sistemas</button>
+        <button class="filter-btn" data-categoria="comida">Pollerías y Restaurantes</button>
+        <button class="filter-btn" data-categoria="comercio">Minimarkets</button>
+        <button class="filter-btn" data-categoria="servicios">Barberías</button>
+      </div>
+
+      <!-- Contenedor donde JS renderizará las tarjetas -->
+      <div class="catalog-grid" id="catalogo-grid"></div>
+    </div>
+  </section>
+
+  <!-- Mini Asistente Interactivo para WhatsApp -->
+  <section id="recomendador" class="section bg-dark">
+    <div class="container">
+      <div class="advisor-box reveal">
+        <h2>¿No sabes cuál elegir? Te ayudo en 10 segundos</h2>
+        <p>Selecciona tus opciones y envíame tu consulta lista por WhatsApp:</p>
+        
+        <div class="advisor-form">
+          <div class="form-group">
+            <label for="adv-rubro">1. ¿Cuál es tu negocio?</label>
+            <select id="adv-rubro">
+              <option value="Minimarket o Bodega">Minimarket o Bodega</option>
+              <option value="Pollería">Pollería</option>
+              <option value="Restaurante o Cafetería">Restaurante o Cafetería</option>
+              <option value="Barbería o Salón">Barbería o Salón</option>
+              <option value="Otro tipo de negocio">Otro tipo de negocio</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="adv-cajas">2. ¿Cuántas cajas o PC usarás?</label>
+            <select id="adv-cajas">
+              <option value="1 sola computadora/caja">1 sola computadora / caja</option>
+              <option value="2 o más computadoras">2 o más computadoras</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="adv-prioridad">3. ¿Qué te urge controlar más?</label>
+            <select id="adv-prioridad">
+              <option value="Ventas diarias y tickets">Ventas diarias y tickets</option>
+              <option value="Control de inventario / stock">Control de inventario / stock</option>
+              <option value="Pedidos, mesas o comisiones">Pedidos, mesas o comisiones</option>
+            </select>
+          </div>
+        </div>
+
+        <button id="btn-enviar-asesor" class="btn btn-whatsapp btn-lg">
+          <svg class="wa-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 1.856.001 3.598.723 4.907 2.034 1.31 1.311 2.031 3.054 2.03 4.908-.001 3.825-3.113 6.938-6.937 6.938z"/>
+          </svg>
+          Recibir recomendación y precio por WhatsApp
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tecnología -->
+  <section id="tecnologia" class="section">
+    <div class="container">
+      <div class="tech-wrapper reveal">
+        <div class="tech-header">
+          <span class="badge">Tecnología detrás de GoAvanza</span>
+          <h2>Desarrollados en PHP puro con arquitectura MVC</h2>
+          <p>Cada sistema POS está programado desde cero sin librerías pesadas innecesarias. Esto permite alojar tu sistema en <strong>hostings compartidos económicos</strong>, mantener tus datos ordenados y lograr que funcione rápido en cualquier computadora.</p>
+        </div>
+
+        <!-- Bloque destacado de PHP -->
+        <div class="php-showcase">
+          <div class="php-logo-box" title="Desarrollado con PHP nativo">
+            <svg class="php-logo-svg" viewBox="0 0 120 62" width="104" height="54" role="img" aria-label="Logo oficial de PHP">
+              <defs>
+                <linearGradient id="phpGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#8892BF"/>
+                  <stop offset="100%" stop-color="#4F5D95"/>
+                </linearGradient>
+              </defs>
+              <ellipse cx="60" cy="31" rx="57" ry="28" fill="url(#phpGrad)" stroke="#3b4675" stroke-width="2"/>
+              <ellipse cx="60" cy="31" rx="52" ry="24" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="1.2"/>
+              <text x="60" y="40" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-weight="800" font-style="italic" font-size="30" letter-spacing="-1">php</text>
+            </svg>
+          </div>
+          <div class="php-showcase-text">
+            <h3>¿Por qué usamos PHP nativo?</h3>
+            <p>A diferencia de plataformas pesadas que exigen servidores costosos cada mes, el código en <strong>PHP puro + MySQL</strong> responde al instante, consume mínimos recursos y reduce drásticamente el costo anual de mantener tu punto de venta en línea.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Preguntas Frecuentes con transición suave -->
+  <section id="faq" class="section bg-light">
+    <div class="container faq-container">
+      <h2 class="section-title reveal">Preguntas frecuentes</h2>
+      
+      <details class="faq-item is-open reveal" open>
+        <summary>
+          <span>¿Necesito comprar una computadora nueva y cara?</span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </summary>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            <p>No. Mis sistemas están desarrollados de forma ligera (arquitectura limpia en PHP) para funcionar sin problemas en cualquier laptop o PC de escritorio con Windows que ya tengas en tu negocio.</p>
+          </div>
+        </div>
+      </details>
+
+      <details class="faq-item reveal">
+        <summary>
+          <span>¿Puedo ver las ventas de mi negocio desde mi celular?</span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </summary>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            <p>Sí. Al ser sistemas web alojados en tu propio hosting económico, puedes ingresar con tu usuario y clave desde tu teléfono en cualquier lugar para revisar cuánto va vendiendo tu caja.</p>
+          </div>
+        </div>
+      </details>
+
+      <details class="faq-item reveal">
+        <summary>
+          <span>¿Qué pasa si nunca he usado un sistema POS?</span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </summary>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            <p>El diseño está pensado para principiantes: botones grandes, pasos claros y cero menús confusos. Además, incluyo una sesión de capacitación práctica para ti y tu personal.</p>
+          </div>
+        </div>
+      </details>
+
+      <details class="faq-item reveal">
+        <summary>
+          <span>¿Cómo puedo ver el sistema en funcionamiento antes de comprar?</span>
+          <svg class="faq-chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </summary>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            <p>Puedes explorar las capturas de cada módulo aquí mismo en el catálogo, o escribirme por WhatsApp para hacerte una demostración rápida en vivo de 5 minutos por videollamada.</p>
+          </div>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 <strong>GoAvanza</strong> - Soluciones de punto de venta para pequeños negocios.</p>
+    </div>
+  </footer>
+
+  <!-- Botón Flotante de WhatsApp con Logo -->
+  <a href="#" id="float-whatsapp" target="_blank" rel="noopener" class="whatsapp-float" title="Consultar por WhatsApp">
+    <svg class="wa-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+      <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 1.856.001 3.598.723 4.907 2.034 1.31 1.311 2.031 3.054 2.03 4.908-.001 3.825-3.113 6.938-6.937 6.938z"/>
+    </svg>
+    <span>Consultar</span>
+  </a>
+
+  <!-- MODAL INTERACTIVO DE DETALLE -->
+  <div class="modal-overlay" id="modal-sistema" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close" id="modal-cerrar" aria-label="Cerrar">&times;</button>
+      
+      <div class="modal-header">
+        <span class="badge" id="modal-categoria">Categoría</span>
+        <h3 id="modal-titulo">Nombre del Sistema</h3>
+        <p id="modal-descripcion">Descripción del sistema</p>
+      </div>
+
+      <div class="modal-tabs" id="modal-tabs"></div>
+
+      <div class="modal-viewer">
+        <div class="modal-img-wrap img-skeleton">
+          <img id="modal-imagen" src="" alt="Captura del módulo" decoding="async">
+        </div>
+        <div class="modal-caption">
+          <p id="modal-modulo-desc">Explicación del módulo seleccionado.</p>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <div class="modal-price">
+          <span>Modalidad:</span>
+          <strong id="modal-precio">Pago único accesible</strong>
+        </div>
+        <a href="#" id="modal-whatsapp" target="_blank" rel="noopener" class="btn btn-whatsapp">
+          <svg class="wa-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 1.856.001 3.598.723 4.907 2.034 1.31 1.311 2.031 3.054 2.03 4.908-.001 3.825-3.113 6.938-6.937 6.938z"/>
+          </svg>
+          Solicitar precio y video por WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/sistemas.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
