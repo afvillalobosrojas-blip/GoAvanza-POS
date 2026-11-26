@@ -264,6 +264,24 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // Botones de Packs para Estudiantes y Distribuidores -> WhatsApp
+  document.querySelectorAll(".btn-pack-wa").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const packSeleccionado = btn.dataset.pack;
+      const mensaje = `Hola, vengo de la web de ${CONFIG_NEGOCIO.nombreMarca}. Me interesa adquirir el *${packSeleccionado}* (código fuente + guía PDF). ¿Cómo realizo el pago y qué sistemas puedo elegir?`;
+      window.open(crearLinkWhatsApp(mensaje), "_blank");
+    });
+  });
+
+  // Botón de Catálogo Ampliado -> WhatsApp
+  const btnMasSistemas = document.getElementById("btn-mas-sistemas");
+  if (btnMasSistemas) {
+    btnMasSistemas.addEventListener("click", () => {
+      const mensaje = `Hola, vi el catálogo de ${CONFIG_NEGOCIO.nombreMarca} y me gustaría conocer qué otros sistemas POS tienen disponibles además de los publicados en la web.`;
+      window.open(crearLinkWhatsApp(mensaje), "_blank");
+    });
+  }
+
   // =========================================================
   // 3. CATÁLOGO Y MODAL INTERACTIVO (CON ZOOM)
   // =========================================================

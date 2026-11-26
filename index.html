@@ -24,6 +24,7 @@
         <a href="#catalogo">Sistemas</a>
         <a href="#recomendador">Asesor Rápido</a>
         <a href="#tecnologia">Tecnología</a>
+        <a href="#packs-dev">Código Fuente</a>
         <a href="#faq">Dudas</a>
       </nav>
       <a href="#" id="nav-whatsapp" target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
@@ -207,6 +208,20 @@
 
       <!-- Contenedor donde JS renderizará las tarjetas -->
       <div class="catalog-grid" id="catalogo-grid"></div>
+
+      <!-- Aviso de catálogo ampliado -->
+      <div class="more-systems-banner reveal">
+        <div class="more-systems-info">
+          <span class="badge">Catálogo ampliado</span>
+          <h3>¿Buscas un sistema para otro tipo de negocio?</h3>
+          <p>
+            Contamos con más sistemas desarrollados listos para implementar o adquirir en código fuente: <strong>Ferreterías, Farmacias, Veterinarias, Gimnasios, Lavanderías, Talleres Mecánicos, Hoteles</strong> y más.
+          </p>
+        </div>
+        <button type="button" id="btn-mas-sistemas" class="btn btn-primary">
+          Solicitar catálogo completo
+        </button>
+      </div>
     </div>
   </section>
 
@@ -289,8 +304,97 @@
     </div>
   </section>
 
+  <!-- Sección Packs para Estudiantes, Programadores y Distribuidores -->
+  <section id="packs-dev" class="section bg-light reveal">
+    <div class="container">
+      <div class="dev-header">
+        <span class="badge">Código Fuente PHP 8 + MySQL</span>
+        <h2 class="section-title">Packs para Estudiantes, Programadores y Distribuidores</h2>
+        <p class="section-subtitle">
+          Adquiere el código fuente limpio, sin dependencias pesadas y con guía de instalación en PDF para tus proyectos académicos, portafolio o para comercializar bajo tu propia marca.
+        </p>
+      </div>
+
+      <div class="packs-grid">
+        <!-- Pack 1: Starter -->
+        <article class="pack-card">
+          <div class="pack-top">
+            <span class="pack-tag">Estudiantes y Principiantes</span>
+            <h3>Pack Starter</h3>
+            <div class="pack-price">
+              <span class="currency">S/</span>
+              <span class="amount">79</span>
+              <span class="period">pago único</span>
+            </div>
+            <p class="pack-desc">Ideal para aprender arquitectura MVC en PHP nativo, presentar proyectos o implementar 1 sistema.</p>
+          </div>
+          <ul class="pack-features">
+            <li>Código fuente completo de <strong>1 sistema POS a elección</strong></li>
+            <li>Base de datos MySQL (.sql) con datos de prueba</li>
+            <li>Guía completa de instalación y despliegue en PDF</li>
+            <li>Uso educativo o en 1 proyecto propio/cliente</li>
+          </ul>
+          <button type="button" class="btn btn-outline btn-pack-wa" data-pack="Pack Starter (1 Sistema POS - S/ 79)">
+            Adquirir Pack Starter
+          </button>
+        </article>
+
+        <!-- Pack 2: Suite Básica (Destacado) -->
+        <article class="pack-card featured">
+          <div class="pack-ribbon">Más elegido</div>
+          <div class="pack-top">
+            <span class="pack-tag">Freelancers y Técnicos</span>
+            <h3>Suite Básica</h3>
+            <div class="pack-price">
+              <span class="currency">S/</span>
+              <span class="amount">199</span>
+              <span class="period">pago único</span>
+            </div>
+            <p class="pack-desc">Arma tu propio portafolio de soluciones POS y empieza a instalar sistemas a negocios locales.</p>
+          </div>
+          <ul class="pack-features">
+            <li>Código fuente de <strong>3 sistemas POS a elección</strong></li>
+            <li>Guías completas en PDF y scripts SQL de cada sistema</li>
+            <li><strong>Licencia Marca Blanca:</strong> cambia logo, nombre y colores</li>
+            <li>Autorización para instalar y cobrar a tus clientes</li>
+          </ul>
+          <button type="button" class="btn btn-primary btn-pack-wa" data-pack="Suite Básica (3 Sistemas POS - S/ 199)">
+            Elegir Suite Básica
+          </button>
+        </article>
+
+        <!-- Pack 3: All Access -->
+        <article class="pack-card">
+          <div class="pack-top">
+            <span class="pack-tag">Agencias y Distribuidores</span>
+            <h3>All Access</h3>
+            <div class="pack-price">
+              <span class="currency">S/</span>
+              <span class="amount">399</span>
+              <span class="period">pago único</span>
+            </div>
+            <p class="pack-desc">Acceso total a los sistemas publicados en la web más todo nuestro catálogo privado de soluciones.</p>
+          </div>
+          <ul class="pack-features">
+            <li><strong>Todo el catálogo completo</strong> (sistemas web + catálogo privado)</li>
+            <li>Guías técnicas en PDF de todos los sistemas incluidos</li>
+            <li><strong>Licencia de distribución ilimitada</strong> a clientes finales</li>
+            <li>Soporte prioritario por WhatsApp para despliegue</li>
+          </ul>
+          <button type="button" class="btn btn-whatsapp btn-pack-wa" data-pack="All Access (Todo el Catálogo POS - S/ 399)">
+            Obtener All Access
+          </button>
+        </article>
+      </div>
+
+      <p class="packs-footnote">
+        * Todos los packs incluyen entrega digital inmediata (código fuente + base de datos + manual PDF). ¿Buscas el sistema ya instalado y configurado para tu negocio? <a href="#catalogo">Revisa nuestros planes para negocios aquí</a>.
+      </p>
+    </div>
+  </section>
+
   <!-- Preguntas Frecuentes con transición suave -->
-  <section id="faq" class="section bg-light">
+  <section id="faq" class="section">
     <div class="container faq-container">
       <h2 class="section-title reveal">Preguntas frecuentes</h2>
       
